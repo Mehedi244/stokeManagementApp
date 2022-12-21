@@ -1,0 +1,174 @@
+*{
+	margin: 0;padding: 0;
+}
+body{
+	background-color: #f4f5de;
+}
+.Main_section {
+    width: 1100px;
+    margin: 0 auto;
+}
+.main-menu{
+	background-color: green;
+	/*width: 1200px;*/
+	margin: 0 auto;
+	height: 57px;
+	position: relative;
+	box-shadow: 0px 10px 10px grey;
+}
+
+li#brand {
+    color: white;
+    font-size: 26px;
+    margin-right: 34px;
+}
+
+ul{
+	float: left;
+	padding: 15px;
+}
+.main-menu ul li{
+	display: inline-flex;
+	float: left;
+	
+}
+.main-menu ul li a{
+	font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 6px 25px;
+
+}
+.main-menu ul li a:hover{
+	background-color: gray;
+	transition: .5s;
+}
+
+/*clse header*/
+
+
+/*Start Body*/
+
+.form_body {
+    padding: 38px;
+    min-height: 399px;
+}
+
+.form_field {
+    width: 458px;
+    margin: 0 auto;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 21px;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 21px;
+}
+input[type="date"] {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 21px;
+}
+input[type="submit"] {
+    padding: 10px 71px;
+    background: green;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+}
+select{
+	 width: 107%;
+    padding: 13px;
+    margin-bottom: 21px;
+}
+
+#search {
+    margin-top: -17px;
+}
+
+
+.itemlist h2 {
+    margin-top: 95px;
+}
+
+.itemlist table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.itemlist table, td, th {
+    border: 1px solid;
+    padding: 12px;
+}
+a#editbutton {
+    background: #00805cad;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+a#deletebutton {
+    background: red;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.searchItemList table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 31px;
+}
+.searchItemList table td, th {
+    border: 1px solid;
+    padding: 12px;
+}
+
+.searchItemList th {
+    background: #0080008c;
+    color: #121212;
+}
+.searchItemList td {
+    background: #80808054;
+    color: #181818;
+}
+
+#itemnum {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px;
+}
+.itemnum {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    margin: 0px !important;
+    padding: 5px !important;
+}
+.salebtn {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer {
+    background: green;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 12px;
+}
